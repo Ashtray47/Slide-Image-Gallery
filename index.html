@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Swap Gallery</title>
+	<link rel="stylesheet" href="style/swap-gallery-style.css">
+
+<style></style>
+
+</head>
+
+<body>
+<div id="content" class="content">
+	<h1>
+	<div id="swap-gallery">
+		<ul>
+			<li class="active"><img src="images/img01.jpg" /></li>
+			<li class=""><img src="images/img02.jpg" /></li>
+			<li class=""><img src="images/img03.jpg" /></li>
+			<li class=""><img src="images/img04.jpg" /></li>
+			<li class=""><img src="images/img05.jpg" /></li>
+		</ul>
+	</div>
+
+	<div class="clear"></div>
+	<div class="action-buttons">
+		<button id="prevBtn" class="btn"><</button><button id="nextBtn" class="btn">></button>
+	</div>
+
+</div> <!-- Closes content -->
+
+<script src="scripts/swap-script.js" type="text/javascript"></script>
+
+<script>
+	//**include id of slide when creating new gallery object
+	var swapGallery = new SlideGalleryFactory("#swap-gallery");
+
+</script>
+
+</body>
+</html>

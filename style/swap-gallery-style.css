@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+.content {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+body {
+  background-image: url(../images/furley_bg.png);
+}
+
+#swap-gallery {
+  width: 100%;
+  height: 350px;
+  overflow:hidden;
+  margin: 20px auto;
+}
+
+#swap-gallery ul {
+  padding:0px;
+  margin-left: 270px;
+  position: relative;
+  -webkit-perspective: 800px;
+
+}
+#swap-gallery ul li {
+  width: 540px;
+  height: 304px;
+  margin: 0px 5px;
+  list-style-type: none;
+  display: block;
+  position: absolute;
+  /*transition: 400ms;*/
+}
+
+.btn {
+  background: #77828a;
+  background-image: -webkit-linear-gradient(top, #77828a, #4b5257);
+  background-image: -moz-linear-gradient(top, #77828a, #4b5257);
+  background-image: -ms-linear-gradient(top, #77828a, #4b5257);
+  background-image: -o-linear-gradient(top, #77828a, #4b5257);
+  background-image: linear-gradient(to bottom, #77828a, #4b5257);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  *background: #3498db;
+  margin: 5px 20px;
+  padding: 8px 15px;
+  width: 60px;
+  text-decoration: none;
+  border-style: none;
+}
+
+.btn:hover {
+  background: #97a2aa;
+  background-image: -webkit-linear-gradient(top, #97a2aa, #6b7277);
+  background-image: -moz-linear-gradient(top, #97a2aa, #6b7277);
+  background-image: -ms-linear-gradient(top, #97a2aa, #6b7277);
+  background-image: -o-linear-gradient(top, #97a2aa, #6b7277);
+  background-image: linear-gradient(to bottom, #97a2aa, #6b7277);
+  text-decoration: none;
+}
+
+.action-buttons {
+  width: 1080px;
+  margin: 0 auto;
+  text-align: center;
+}
+
